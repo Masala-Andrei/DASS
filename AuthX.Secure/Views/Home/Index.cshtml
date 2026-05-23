@@ -1,0 +1,29 @@
+@{
+    ViewBag.Title = "Acasa";
+    var me = ViewBag.Me as User;
+}
+
+<h1>AuthX</h1>
+
+@if (me == null)
+{
+    <p>
+        <a class="btn" asp-controller="Auth" asp-action="Login">Login</a>
+        <a class="btn" asp-controller="Auth" asp-action="Register">Register</a>
+    </p>
+}
+else
+{
+    <p>Salut, <strong>@me.Email</strong>. Esti logat ca <strong>@me.Role</strong>.</p>
+    <p><a class="btn" asp-controller="Tickets" asp-action="Index">Vezi ticketele mele</a></p>
+}
+
+<h2>Conturi de test</h2>
+<table>
+    <thead><tr><th>Email</th><th>Parola</th><th>Rol</th></tr></thead>
+    <tbody>
+        <tr><td>alice@authx.local</td><td>Alice!Strong#2026</td><td>ANALYST</td></tr>
+        <tr><td>bob@authx.local</td><td>Bob!Secure#Pwd2026</td><td>ANALYST</td></tr>
+        <tr><td>manager@authx.local</td><td>Manager!Boss#2026</td><td>MANAGER</td></tr>
+    </tbody>
+</table>
