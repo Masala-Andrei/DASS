@@ -1,0 +1,24 @@
+@model TicketCreateViewModel
+@{
+    ViewBag.Title = "Ticket nou";
+}
+
+<h1>Creeaza ticket</h1>
+
+<form method="post" asp-action="Create">
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description"></textarea>
+    </div>
+    <div class="form-group">
+        <label asp-for="Severity"></label>
+        <input asp-for="Severity" placeholder="LOW / MEDIUM / HIGH" />
+    </div>
+    <button type="submit">Salveaza</button>
+    <a asp-action="Index" class="muted" style="margin-left: 1rem;">Anuleaza</a>
+</form>

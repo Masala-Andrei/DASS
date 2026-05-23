@@ -1,0 +1,50 @@
+@inject CurrentUserService CurrentUser
+@{
+    var me = ViewBag.Me as User;
+    if (me == null)
+    {
+        me = await CurrentUser.GetAsync();
+    }
+}
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@(ViewBag.Title ?? "AuthX") - AuthX</title>
+    <link rel="stylesheet" href="/css/site.css" />
+</head>
+<body>
+    <header class="topbar">
+        <div class="topbar-inner">
+            <a class="brand" href="/">AuthX</a>
+            <nav>
+                <a asp-controller="Home" asp-action="Index">Acasa</a>
+                <a asp-controller="Tickets" asp-action="Index">Tickete</a>
+                @if (me == null)
+                {
+                    <a asp-controller="Auth" asp-action="Login">Login</a>
+                    <a asp-controller="Auth" asp-action="Register">Register</a>
+                }
+                else
+                {
+                    <span class="me">@me.Email (@me.Role)</span>
+                    <form method="post" asp-controller="Auth" asp-action="Logout" class="inline">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="link">Logout</button>
+                    </form>
+                }
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        @if (TempData["Info"] != null)
+        {
+            <div class="alert info">@TempData["Info"]</div>
+        }
+        @RenderBody()
+    </main>
+
+</body>
+</html>
