@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "Hash": "W9T+onCHeeO6psJdnpSIbNu75T6PHEBsRRshUG24dB8=",
+  "Source": "AuthX.Vulnerable",
+  "BasePath": "_content/AuthX.Vulnerable",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AuthX.Vulnerable\\wwwroot",
+      "Source": "AuthX.Vulnerable",
+      "ContentRoot": "D:\\Anul 3\\Semestrul 2\\DASS\\Proiect2\\AuthX.Vulnerable\\wwwroot\\",
+      "BasePath": "_content/AuthX.Vulnerable",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Anul 3\\Semestrul 2\\DASS\\Proiect2\\AuthX.Vulnerable\\obj\\Debug\\net9.0\\compressed\\ylzylp3zkd-im2mlnp997.gz",
+      "SourceId": "AuthX.Vulnerable",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Anul 3\\Semestrul 2\\DASS\\Proiect2\\AuthX.Vulnerable\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/AuthX.Vulnerable",
+      "RelativePath": "css/site#[.{fingerprint=im2mlnp997}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Anul 3\\Semestrul 2\\DASS\\Proiect2\\AuthX.Vulnerable\\wwwroot\\css\\site.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "fvxltl84y7",
+      "Integrity": "u891WsgM7ThYGDiR3rHH5RciSd04xdnakXhduNe8ue8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Anul 3\\Semestrul 2\\DASS\\Proiect2\\AuthX.Vulnerable\\wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\Anul 3\\Semestrul 2\\DASS\\Proiect2\\AuthX.Vulnerable\\wwwroot\\css\\site.css",
+      "SourceId": "AuthX.Vulnerable",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Anul 3\\Semestrul 2\\DASS\\Proiect2\\AuthX.Vulnerable\\wwwroot\\",
+      "BasePath": "_content/AuthX.Vulnerable",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "im2mlnp997",
+      "Integrity": "ynf8V79XGeIIn4lsds3QnZeNkwos3UX2iZEwpmKyjyw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.css",
+      "AssetFile": "D:\\Anul 3\\Semestrul 2\\DASS\\Proiect2\\AuthX.Vulnerable\\obj\\Debug\\net9.0\\compressed\\ylzylp3zkd-im2mlnp997.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000952380952"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1049"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u891WsgM7ThYGDiR3rHH5RciSd04xdnakXhduNe8ue8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Apr 2026 11:34:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ynf8V79XGeIIn4lsds3QnZeNkwos3UX2iZEwpmKyjyw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ynf8V79XGeIIn4lsds3QnZeNkwos3UX2iZEwpmKyjyw="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "D:\\Anul 3\\Semestrul 2\\DASS\\Proiect2\\AuthX.Vulnerable\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2950"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ynf8V79XGeIIn4lsds3QnZeNkwos3UX2iZEwpmKyjyw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Apr 2026 11:34:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ynf8V79XGeIIn4lsds3QnZeNkwos3UX2iZEwpmKyjyw="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "D:\\Anul 3\\Semestrul 2\\DASS\\Proiect2\\AuthX.Vulnerable\\obj\\Debug\\net9.0\\compressed\\ylzylp3zkd-im2mlnp997.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1049"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u891WsgM7ThYGDiR3rHH5RciSd04xdnakXhduNe8ue8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Apr 2026 11:34:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u891WsgM7ThYGDiR3rHH5RciSd04xdnakXhduNe8ue8="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.im2mlnp997.css",
+      "AssetFile": "D:\\Anul 3\\Semestrul 2\\DASS\\Proiect2\\AuthX.Vulnerable\\obj\\Debug\\net9.0\\compressed\\ylzylp3zkd-im2mlnp997.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000952380952"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1049"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u891WsgM7ThYGDiR3rHH5RciSd04xdnakXhduNe8ue8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Apr 2026 11:34:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ynf8V79XGeIIn4lsds3QnZeNkwos3UX2iZEwpmKyjyw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "im2mlnp997"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ynf8V79XGeIIn4lsds3QnZeNkwos3UX2iZEwpmKyjyw="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.im2mlnp997.css",
+      "AssetFile": "D:\\Anul 3\\Semestrul 2\\DASS\\Proiect2\\AuthX.Vulnerable\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2950"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ynf8V79XGeIIn4lsds3QnZeNkwos3UX2iZEwpmKyjyw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Apr 2026 11:34:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "im2mlnp997"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ynf8V79XGeIIn4lsds3QnZeNkwos3UX2iZEwpmKyjyw="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.im2mlnp997.css.gz",
+      "AssetFile": "D:\\Anul 3\\Semestrul 2\\DASS\\Proiect2\\AuthX.Vulnerable\\obj\\Debug\\net9.0\\compressed\\ylzylp3zkd-im2mlnp997.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1049"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u891WsgM7ThYGDiR3rHH5RciSd04xdnakXhduNe8ue8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Apr 2026 11:34:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "im2mlnp997"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u891WsgM7ThYGDiR3rHH5RciSd04xdnakXhduNe8ue8="
+        }
+      ]
+    }
+  ]
+}
