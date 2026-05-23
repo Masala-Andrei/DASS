@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/AuthX.Vulnerable.props" />
+</Project>

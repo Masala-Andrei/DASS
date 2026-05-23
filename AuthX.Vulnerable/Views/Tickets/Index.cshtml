@@ -1,0 +1,45 @@
+@model List<Ticket>
+@{
+    ViewBag.Title = "Ticketele mele";
+    var me = ViewBag.Me as User;
+}
+
+<h1>Ticketele mele</h1>
+
+<p>
+    <a class="btn" asp-action="Create">+ Ticket nou</a>
+</p>
+
+@if (!Model.Any())
+{
+    <p class="muted">Nu ai inca tickete.</p>
+}
+else
+{
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Titlu</th>
+                <th>Severitate</th>
+                <th>Status</th>
+                <th>Creat</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var t in Model)
+            {
+                <tr>
+                    <td>@t.Id</td>
+                    <td>@t.Title</td>
+                    <td><span class="severity-@t.Severity">@t.Severity</span></td>
+                    <td>@t.Status</td>
+                    <td>@t.CreatedAt.ToString("yyyy-MM-dd HH:mm")</td>
+                    <td><a asp-action="Details" asp-route-id="@t.Id">Detalii</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
